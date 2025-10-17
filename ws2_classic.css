@@ -1,0 +1,95 @@
+body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+    margin: 0;
+}
+#header {
+    background-color: coral;
+    box-sizing: border-box;
+    padding: 15px;
+    min-height: 25%;
+    overflow: hidden;
+}
+#header p {
+    float: left;
+    box-sizing: border-box;
+    width: 74%;
+}
+#x {
+    float: right;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+#under {
+    overflow: hidden;
+    position: relative;
+}
+#other {
+    overflow: hidden;
+}
+#content {
+    overflow: hidden;
+    display: table;
+    width: 80%;
+}
+#left {
+    display: table-cell;
+    width: 10%;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    padding: 15px;
+    height: 50vh;
+}
+#leftcol1 {
+    border-style: none none solid none;
+    box-sizing: border-box;
+    height: 45%;
+}
+#center {
+    display: table-cell;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 50%;
+}
+#right {
+    position: absolute;
+    float: right;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 80%;
+    background-color: crimson;
+    box-sizing: border-box;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+  background-color: brown;
+  color: white;
+}
+#footer {
+    background-color: coral;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 80%;
+    min-height: 25vh;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h2 {
+    font-family: Georgia, Times, serif;
+}
+img {
+    width: 100%;
+}
